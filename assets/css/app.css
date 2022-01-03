@@ -621,7 +621,7 @@ input {
   Helper Classes
 -------------------------*/
 .bg-color-dark {
-    background-color: var(--color-dark);
+    background-color: #0f3158;
 }
 
 .bg-color-light {
