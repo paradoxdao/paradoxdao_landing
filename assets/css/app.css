@@ -4679,7 +4679,6 @@ Pagination
 -------------------------*/
 .services-grid {
     padding: 50px 55px 40px;
-    border-radius: 30px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
     margin-bottom: 10px;
