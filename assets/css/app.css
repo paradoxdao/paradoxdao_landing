@@ -3880,7 +3880,7 @@ Pagination
 
 .counterup-progress .count-number {
     font-weight: 500;
-    color: var(--color-primary);
+    color: #ffffff;
     font-family: var(--font-primary);
     margin-bottom: 10px;
     letter-spacing: -0.045em;
