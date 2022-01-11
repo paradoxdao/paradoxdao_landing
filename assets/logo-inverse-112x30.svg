@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Goswapp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="components/base/base.css">
+    <script src="components/base/core.min.js"></script>
+    <script src="components/base/script.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <!--RD Navbar-->
+      <header class="section rd-navbar-wrap">
+        <nav class="rd-navbar">
+          <div class="navbar-container">
+            <div class="navbar-cell">
+              <div class="navbar-panel">
+                <button class="navbar-switch" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img class="navbar-logo-default" src="media/logo_home.svg" alt="" width="126" height="30"/><img class="navbar-logo-inverse" src="media/logo-inverse-112x30.svg" alt="" width="112" height="30"/></a></div>
+              </div>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell navbar-sidebar">
+              <ul class="navbar-navigation rd-navbar-nav fullpage-navigation">
+                <li class="navbar-navigation-root-item active" data-menuanchor="home"><a class="navbar-navigation-root-link" href="#home">Home</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link" href="index.html">Home</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="index-2.html">Home #2</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="index-3.html">Home #3</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="index-4.html">Home #4</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item" data-menuanchor="features"><a class="navbar-navigation-root-link" href="#features">Features</a>
+                </li>
+                <li class="navbar-navigation-root-item" data-menuanchor="pricing"><a class="navbar-navigation-root-link" href="#roadmap">Roadmap</a>
+                </li>
+                <li class="navbar-navigation-root-item" data-menuanchor="pricing"><a class="navbar-navigation-root-link" href="#token">Token</a>
+                </li>
+                <!-- <li class="navbar-navigation-root-item" data-menuanchor="contacts"><a class="navbar-navigation-root-link" href="#contacts">Roadmap</a>
+                </li> -->
+                <li class="navbar-navigation-root-item" data-menuanchor="pages"><a class="navbar-navigation-root-link" href="#footer">Contact</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="404-page.html">404 page</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="coming-soon.html">Coming soon</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="elements.html">Elements</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="testimonials-2.html">Testimonials 2</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-career.html">Single career</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-post.html">Single post</a>
+                    </li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-cell">
+              <div class="navbar-subpanel">
+                <div class="navbar-subpanel-item">
+                  <button class="navbar-button navbar-info-button mdi-dots-vertical" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button>
+                  <div class="navbar-info">
+                    <button class="btn btn-sm" data-modal-trigger='{"target":"#modal-login"}'>Get App</button>
+                    <a href="https://goswapp-bsc.web.app"><button class="btn btn-sm">BSC Charts</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Intro-->
+      <section class="section" id="home">
+        <div class="swiper-container swiper-pagination-minimal" data-swiper='{"scrollbar":{"el":""},"autoplay":{"delay":5000,"disableOnInteraction":false},"breakpoints":{"320":{"autoplay":false},"1200":{"autoplay":{"delay":5000,"disableOnInteraction":false}}}}'>
+          <div class="bg-layer d-flex align-items-end">
+            <svg class="image-svg" width="1920" height="792" viewBox="0 0 1920 792" fill="none">
+              <path opacity="0.03" d="M1245 671.5H0V792H1920V0.5H1450C1392.01 0.5 1345 47.5101 1345 105.5V571.5C1345 626.728 1300.23 671.5 1245 671.5Z" fill="white"></path>
+              <text x="0" y="350" fill="white" style="font-size:200px; font-weight: bold; opacity: .03;">GO</text>
+              <text x="0" y="550" fill="white" style="font-size:200px; font-weight: bold; opacity: .03;">SWAPP</text>
+              <circle cx="509" cy="121" r="18" fill="#45494B"></circle>
+              <circle cx="367.5" cy="138.5" r="9.5" fill="#FF8C68"></circle>
+              <circle cx="526.5" cy="431.5" r="6.5" fill="#78C5D6"></circle>
+              <defs>
+                <lineargradient id="paint0_linear" x1="-30.2098" y1="414" x2="1076.2" y2="412.898" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#323436"></stop>
+                  <stop offset="1" stop-color="#282A2D"></stop>
+                </lineargradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide section-lg">
+              <div class="container">
+                <div class="row align-items-center justify-content-lg-between flex-md-row-reverse">
+                  <div class="col-8 col-md-5 col-lg-7 text-right"><img src="media/image-01-827x730.png" alt="" width="827" height="730"/>
+                  </div>
+                  <div class="col-md-7 col-lg-5 col-xxl-4">
+                    <h1>#1 Defi Trading Application</h1>
+                    <div class="offset-xxs">
+                      <p class="biggest">The ultimate terminal that arms you with the necessary tools for Dex trading and connects you to your favorite Defi protocols.</p>
+                    </div>
+                    <div class="offset-sm">
+                      <button class="btn" data-modal-trigger='{"target":"#modal-login"}'>Start Using for Free</button>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide section-lg">
+              <div class="container">
+                <div class="row align-items-center justify-content-lg-between flex-md-row-reverse">
+                  <div class="col-7 col-md-5 col-xxl-7 text-center"><img class="ml-xxl-4" src="media/image-02-573x615.png" alt="" width="573" height="615"/>
+                  </div>
+                  <div class="col-md-7 col-lg-6 col-xxl-4">
+                    <h1>One App For All Your Defi Needs</h1>
+                    <div class="offset-xxs">
+                      <p class="biggest">View live charts for uniswap and other decentralized exchanges, Set price alerts, Get notifications for new uniswap listings, and track your portfolio.</p>
+                    </div>
+                    <div class="offset-sm">
+                      <button class="btn" data-modal-trigger='{"target":"#modal-login"}'>Start Using for Free</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide section-lg">
+              <div class="container">
+                <div class="row align-items-center justify-content-md-between flex-md-row-reverse">
+                  <div class="col-5 col-md-4 col-lg-4 col-xxl-7 text-center"><img class="mb-xxl-3" src="media/image-03-451x630.png" alt="" width="451" height="630"/>
+                  </div>
+                  <div class="col-md-7 col-lg-6 col-xxl-4">
+                    <h1>Swap<br>On The Go</h1>
+                    <div class="offset-xxs">
+                      <p class="biggest">Interact with your favorite decentralized exchanges and swap your tokens anytime anywhere.</p>
+                    </div>
+                    <div class="offset-sm">
+                      <button class="btn" data-modal-trigger='{"target":"#modal-login"}'>Start Using for Free</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination" data-pagination-ordered></div>
+        </div>
+      </section>
+      <!-- Features-->
+      <section class="section section-lg" id="features">
+        <div class="container">
+          <div class="row row-30 align-items-center">
+            <div class="col-xl-4 col-xxl-6 d-none d-xl-block" data-animate='{"class":"fadeInUp"}'><img class="ml-xxl-2" src="media/image-06-549x597.png" alt="" width="549" height="597"/>
+            </div>
+            <div class="col-lg-10 col-xl-8 col-xxl-6 pb-xxl-2">
+              <div class="d-sm-flex align-items-sm-center" data-animate='{"class":"fadeInLeft"}'>
+                <h2>Built For Defi Astronauts</h2>
+                <p class="mt-sm-0 ml-sm-4 border-sm-left pl-sm-3"></p>
+              </div>
+              <div class="offset-md">
+                <div class="swiper-modern-wrap">
+                  <div class="swiper-container swiper-modern" data-swiper='{"loop":false,"autoplay":false,"simulateTouch":false,"slidesPerView":1,"spaceBetween":30,"pagination":{"el":""},"scrollbar":{"draggable":true},"breakpoints":{"480":{"slidesPerView":2},"768":{"slidesPerView":3}}}'>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-secondary icon-style-3"><img class="navbar-logo-default" src="media/golive_charts.svg" alt="" width="23" height="23"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Live Charts</div>
+                                    <div class="blurb-text">Fast and Interactive charts for dex tokens.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-column">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-secondary icon-style-3"><img class="navbar-logo-default" src="media/set_favorites.svg" alt="" width="23" height="23"/></span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Set Favorites</div>
+                              <div class="blurb-text">Separate your favorite tokens and quickly check their live prices.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/hot_pairs.svg" alt="" width="18" height="18"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Hot Pairs</div>
+                                    <div class="blurb-text">View new listed and most traded uniswap pairs in the last 10 days.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-column">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-success icon-style-3 mdi-comment"></span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Listing Notifications</div>
+                              <div class="blurb-text">Get instant notifications for new uniswap listings.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/price_alerts.svg" alt="" width="23" height="23"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Price Alerts</div>
+                                    <div class="blurb-text">Get real time price alerts with bar notifications.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-column">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/multiswapp.svg" alt="" width="18" height="18"/></span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Multiswapp</div>
+                              <div class="blurb-text">Open several uniswap windows to trade more than one token quickly</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+                                            
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/gas.png" alt="" width="18" height="18"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Live Gas Prices</div>
+                                    <div class="blurb-text">Always keep an eye on live gas prices.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-success icon-style-3"><img class="navbar-logo-default" src="media/search.svg" alt="" width="23" height="23"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Search Bar</div>
+                                    <div class="blurb-text">Seach for uniswap/pancake tokens by ticker, name or contract address.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-column">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-secondary icon-style-3"><img class="navbar-logo-default" src="media/token_details.svg" alt="" width="23" height="23"/></span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Token Details</div>
+                              <div class="blurb-text">See listing price, volume, liquidity, 24hr change, and more.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+                <div class="swiper-slide">
+                  <!-- Blurb boxed-->
+                  <article class="blurb blurb-boxed">
+                    <div class="media media-sm flex-column">
+                      <div class="media-left">
+                        <div class="blurb-embed"><span class="icon icon-round icon-md icon-secondary icon-style-3"><img class="navbar-logo-default" src="media/transactions.svg" alt="" width="25" height="25"/></span></div>
+                      </div>
+                      <div class="media-body">
+                        <div class="blurb-title h5">Token Tnxs</div>
+                        <div class="blurb-text">View real time dex trading transactions.</div>
+                      </div>
+                    </div>
+                  </article>
+          </div>
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-secondary icon-style-3"><img class="navbar-logo-default" src="media/big_swaps.svg" alt="" width="30" height="30"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Big Swaps</div>
+                                    <div class="blurb-text">View transactions greater than a specified value.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      
+                      
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/portfolio.svg" alt="" width="23" height="23"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Portfolio Tracker</div>
+                                    <div class="blurb-text">View total value of all your assets.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                              <!-- Blurb boxed-->
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3"><img class="navbar-logo-default" src="media/wallet_tx.svg" alt="" width="30" height="30"/></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5">Wallet Txns</div>
+                                    <div class="blurb-text">View all transactions of your eth wallets.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-column">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-success icon-style-3"><img class="navbar-logo-default" src="media/gas_expenditure.svg" alt="" width="18" height="18"/></span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Gas Expenditure</div>
+                              <div class="blurb-text">See how much gas you have spent in total.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+                     
+                      <!-- <div class="swiper-slide">
+                              <article class="blurb blurb-boxed">
+                                <div class="media media-sm flex-column">
+                                  <div class="media-left">
+                                    <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3 mdi-reload"></span></div>
+                                  </div>
+                                  <div class="media-body">
+                                    <div class="blurb-title h5"></div>
+                                    <div class="blurb-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
+                                  </div>
+                                </div>
+                              </article>
+                      </div> -->
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tokonomics-->
+      
+      <!-- Modal-->
+      <div class="modal fade" id="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body text-center">
+              <h4>Get an offer for<br>a basic plan</h4>
+              <!--RD Mailform-->
+              <form class="rd-mailform" data-form-output="modal-form-output-global" data-form-type="contact" method="post" action="components/rd-mailform/rd-mailform.php">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="name" placeholder="Your name *" data-constraints="@Required">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" name="email" placeholder="Your E-mail *" data-constraints="@Email @Required">
+                </div>
+                <div class="offset-xs">
+                  <button class="btn btn-block" type="submit">Send Request</button>
+                </div>
+              </form>
+            </div>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="form-output snackbar snackbar-secondary" id="modal-form-output-global"></div>
+      <!-- About-->
+      <section class="section section-lg" id="about">
+        <div class="container">
+          <h2 class="text-center">Welcome to Goswapp</h2>
+          <div class="row row-offset-md row-30 align-items-lg-center justify-content-center justify-content-lg-between">
+            <div class="col-lg-4 col-xl-3">
+              <div class="row row-30 row-md-40 row-xl-50">
+                <div class="col-md-6 col-lg-12">
+                        <!-- Blurb-->
+                        <article class="blurb blurb-lg-right ml-xxl-1">
+                          <div class="blurb-header">
+                            <div class="blurb-embed"><span class="icon icon-circle icon-lg icon-style-4"><img class="navbar-logo-default" src="media/token_details.svg" alt="" width="23" height="23"/></span></div>
+                            <div class="blurb-title h5">Multi Chain Support</div>
+                          </div>
+                          <div class="blurb-text">View charts for Ethereum as well BSC tokens on GoSwapp.</div>
+                        </article>
+                </div>
+                <div class="col-lg-12 d-none d-lg-block">
+                  <hr class="divider mr-0" style="width: 60%">
+                </div>
+                <div class="col-md-6 col-lg-12">
+                        <!-- Blurb-->
+                        <article class="blurb blurb-lg-right ml-xxl-1">
+                          <div class="blurb-header">
+                            <div class="blurb-embed"><span class="icon icon-circle icon-lg icon-style-4 mdi-cursor-default"></span></div>
+                            <div class="blurb-title h5">Stay Connected Everywhere</div>
+                          </div>
+                          <div class="blurb-text">All you need is an internet connection and GoSwapp to stay connected to the world of Defi</div>
+                        </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 col-xs-7 col-md-6 col-lg-3 col-xl-4 text-center order-first order-lg-0 py-5 py-lg-0">
+                      <a class="video" id="#" href="https://www.youtube.com/embed/CB3vSMFpvMg" data-lightgallery='{"selector":"this"}'>
+                      <div class="image-hover"><img src="image-09-428x428.png" alt="" width="428" height="428" data-image-to="image-10-428x428.png"/>
+                      </div>
+                      <div class="video-icon mdi-play"></div>
+                      <div class="video-border"></div></a>
+            </div>
+            <div class="col-lg-4 col-xl-3">
+              <div class="row row-30 row-md-40 row-xl-50">
+                <div class="col-md-6 col-lg-12">
+                        <!-- Blurb-->
+                        <article class="blurb mr-xxl-1">
+                          <div class="blurb-header">
+                            <div class="blurb-embed"><span class="icon icon-circle icon-lg icon-style-4 mdi-dice"></span></div>
+                            <div class="blurb-title h5">Non-Custodial</div>
+                          </div>
+                          <div class="blurb-text">For ease, connect any Web3 supported wallet of your choice and always stay in control of your funds.</div>
+                        </article>
+                </div>
+                <div class="col-lg-12 d-none d-lg-block">
+                  <hr class="divider ml-0" style="width: 60%">
+                </div>
+                <div class="col-md-6 col-lg-12">
+                        <!-- Blurb-->
+                        <article class="blurb mr-xxl-1">
+                          <div class="blurb-header">
+                            <div class="blurb-embed"><span class="icon icon-circle icon-lg icon-style-4 mdi-comment"></span></div>
+                            <div class="blurb-title h5">Community Oriented</div>
+                          </div>
+                          <div class="blurb-text">GoSwapp has been designed keeping Defi traders in mind and gives emphasis to user suggestions above anything else.</div>
+                        </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--RoadMap-->
+      <section class="section section-lg" id="roadmap">
+        <div class="blurb-creative-wrap">
+          <svg class="image-svg position-absolute d-none d-xl-block" style="top: 0; left: 0" width="1920" height="412" viewBox="0 0 1920 412" fill="none">
+            <path opacity="0.3" d="M0 235.992C0 235.992 178.218 424.558 319.5 410.5C460.782 396.442 564.476 269.165 722.686 263.543C880.895 257.921 977.722 429.791 1147 391C1316.28 352.209 1486.6 58.563 1920 1" stroke="#6B6F77"></path>
+          </svg>
+          <div class="container">
+            <h2 class="blurb-creative-heading">
+              RoadMap
+            </h2>
+            <div class="row row-30">
+              <div class="col-sm-6 col-lg-3 blurb-creative-item">
+                      <!-- Blurb creative-->
+                      <article class="blurb blurb-creative blurb-creative-1">
+                        <div class="blurb-embed"><span class="blurb-icon icon icon-circle icon-xl icon-primary icon-style-4 mdi-cursor-default"></span></div>
+                        <div class="blurb-body">
+                          <div class="blurb-title h5">Step 1</div>
+                          <div class="blurb-text">- Android/IOS Development Started<br>- Android app released on play store</div>
+                        </div>
+                      </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 blurb-creative-item">
+                      <!-- Blurb creative-->
+                      <article class="blurb blurb-creative blurb-creative-2">
+                        <div class="blurb-embed"><span class="blurb-icon icon icon-circle icon-xl icon-primary icon-style-4 mdi-settings"></span></div>
+                        <div class="blurb-body">
+                          <div class="blurb-title h5">Step 2</div>
+                          <div class="blurb-text">- Uniswap Charts<br>- Pancakeswap Charts<br>- Price & New Listing Alerts<br>- BSC & ERC20 Portfolio tracking<br>- Presale and Dex listing<br>- Whale Alerts<br>- Live Portfolio Notifications</div>
+                        </div>
+                      </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 blurb-creative-item">
+                      <!-- Blurb creative-->
+                      <article class="blurb blurb-creative blurb-creative-3">
+                        <div class="blurb-embed"><span class="blurb-icon icon icon-circle icon-xl icon-primary icon-style-4 mdi-chart-arc"></span></div>
+                        <div class="blurb-body">
+                          <div class="blurb-title h5">Step 3</div>
+                          <div class="blurb-text">- IOS Release<br>- Go Pad (BSC Launchpad)<br>- BSC Limit Orders<br>- GasBack Rollout<br></div>
+                         </div>
+                      </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 blurb-creative-item">
+                      <!-- Blurb creative-->
+                      <article class="blurb blurb-creative blurb-creative-4">
+                        <div class="blurb-embed"><span class="blurb-icon icon icon-circle icon-xl icon-primary icon-style-4 mdi-rocket"></span></div>
+                        <div class="blurb-body">
+                          <div class="blurb-title h5">Future Plans</div>
+                          <div class="blurb-text">- App Home Screen Widgets<br>- Ability To Track Defi positions<br>- NFTs<br>- Expansion to other DEXs<br>- Telegram bots<br>- Ping Pong bot<br>- Fiat on/off ramp<br>- Crypto debit cards<br>- Platform Enhancements</div>
+                        </div>
+                      </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Pricing-->
+      <section class="section section-lg" id="pricing">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10">
+              <div class="group-20 d-sm-flex align-items-sm-end justify-content-sm-between text-center">
+                <h2>GOFI Holder Benefits</h2>
+                <div>
+                        <!-- Multi switch-->
+                        <!-- <div class="switch-text group-25 d-inline-flex align-items-center justify-content-center" id="multiswitch">
+                          <div><span class="switch-text-left biggest">Annual</span><span class="switch-text-right biggest ml-2 border-left pl-2">Monthly</span></div>
+                                <div class="switch-toggle-modern" data-multi-switch='{"targets":"#multiswitch, #pricing-group","state":true}'>
+                                  <div class="guide"></div>
+                                  <div class="slider">
+                                    <div class="slider-dot"></div>
+                                    <div class="slider-dot"></div>
+                                  </div>
+                                </div>
+                        </div> -->
+                </div>
+              </div>
+              <div class="pricing-group offset-xs" id="pricing-group">
+                <!-- Owl Carousel-->
+                <div class="owl-carousel owl-style-1 owl-item-end" data-owl="{&quot;loop&quot;:false,&quot;mouseDrag&quot;:false,&quot;dots&quot;:true,&quot;autoplay&quot;:false,&quot;responsive&quot;:{&quot;768&quot;:{&quot;items&quot;:2},&quot;992&quot;:{&quot;items&quot;:3},&quot;1600&quot;:{&quot;items&quot;:3,&quot;margin&quot;:100}}}">
+                        <!-- Pricing-->
+                        <article class="pricing pricing-primary block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Tier 1</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">Hold 50 GOFI</span><span class="pricing-year">Hold 50 GOFI</span></div>
+                              <div class="pricing-period">
+                                <div class="h5 font-weight-normal"><span class="pricing-month"></span><span class="pricing-year"></span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">1 Free Limit order Execution/24hr</li>
+                                <li class="list-item">GoPad Allocation : 15%</li>
+                                <li class="list-item">Multichain Portfolio Tracking</li>
+                                <li class="list-item">Save 15 favs & chart indicators</li>
+                                <li class="list-item">Charts auto updates every 20sec</li>
+                                <li class="list-item">Whale Alerts</li>
+                                <li class="list-item">Track Your Positions</li>
+                                <li class="list-item">New Listing Alerts</li>
+                                <li class="list-item">No Ads</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                             <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea"><button class="btn btn-sm" >Buy GOFI</button></a>
+                            </div>
+                          </div>
+                        </article>
+                        <!-- Pricing-->
+                        <article class="pricing pricing-secondary block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <!-- <div class="pricing-badge">Popular</div> -->
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Tier 2</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">Hold 100 GOFI</span><span class="pricing-year">Hold 100 GOFI</span></div>
+                              <div class="pricing-period">
+                                <div class="h5 font-weight-normal"><span class="pricing-month"></span><span class="pricing-year"></span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">5 Free Limit order Execution/24hr</li>
+                                <li class="list-item">GoPad Allocation : 40%</li>
+                                <li class="list-item">Multichain Portfolio Tracking</li>
+                                <li class="list-item">Save Unlimited favs & chart indicators</li>
+                                <li class="list-item">Live Charts</li>
+                                <li class="list-item">Whale Alerts</li>
+                                <li class="list-item">Track your positions</li>
+                                <li class="list-item">Custom New Listing Alerts</li>
+                                <li class="list-item">No Ads</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                              <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea"><button class="btn btn-sm" >Buy GOFI</button></a>
+                            </div>
+                          </div>
+                        </article>
+                        <!-- Pricing-->
+                        <article class="pricing pricing-success block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Tier 3</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">Hold 200 GOFI</span><span class="pricing-year">Hold 200 GOFI</span></div>
+                              <div class="pricing-period">
+                                <div class="h5 font-weight-normal"><span class="pricing-month"></span><span class="pricing-year"></span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">Unlimited Free Limit orders</li>
+                                <li class="list-item">GoPad Allocation : 45%</li>
+                                <li class="list-item">Multichain Portfolio Tracking</li>
+                                <li class="list-item">Save Unlimited favs & chart indicators</li>
+                                <li class="list-item">Live Charts</li>
+                                <li class="list-item">Whale Alerts</li>
+                                <li class="list-item">Track your positions</li>
+                                <li class="list-item">Custom New Listing Alerts</li>
+                                <li class="list-item">No Ads</li>
+                                <li class="list-item">Try Beta Features First</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                              <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea"><button class="btn btn-sm" >Buy GOFI</button></a>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Tokonomics-->
+      <section class="section section-lg" id="token">
+        <div class="container">
+          <div class="row row-30 justify-content-xxl-between">
+            <div class="col-xl-7 col-xxl-6">
+              <div class="row row-30">
+                <div class="col-xs-6 col-xl-5 col-xxl-4">
+                  <h4>DISTRIBUTIONS OF TOKENS</h4>
+                  <ul class="list list-marked list-secondary">
+                    <li class="list-item">40% Liquidity Mining/GasBack</li>
+                    <li class="list-item">25% Token Sale</li>
+                    <li class="list-item">15% Liquidity & Exchanges</li>
+                    <li class="list-item">5% Referrals/Airdrop/<br>&emsp;Community Rewards</li>
+                    <li class="list-item">5% Legal/Advisors</li>
+                    <li class="list-item">3.75% Marketing</li>
+                    <li class="list-item">3.75% Team</li>
+                    <li class="list-item">2.5% Reserve</li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-4 col-xl-7 col-xxl-8 text-xxl-right"><img class="rounded-sm" src="media/image-14-452x354.svg" alt="" width="452" height="354"/>
+                </div>
+              </div>
+              <div class="offset-sm group-20 d-flex flex-wrap align-items-baseline"><span class="text-600 biggest">// Team & Marketing tokens are locked for 6 months with linear&emsp;release afterwards over a period of 6 months</span></div>
+              
+              <div class="offset-sm group-20 d-flex flex-wrap align-items-baseline"><span class="text-600 biggest">Token Ticker : </span><span class="text-300 bigger">GoFi</span></div>
+              <span class="text-600 biggest">Total Supply : </span><span class="text-300 bigger">&emsp;1,000,000</span>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- Timer -->
+      
+      <!--Token utility-->
+      <section class="section section-lg">
+        <div class="container">
+          <h2 class="text-center">Token Utility</h2>
+          <div class="row row-offset-sm row-30 row-md-40 row-xl-60 justify-content-center">
+            <!-- <div class="col-md-6 col-xl-4">
+              
+              <article class="quote quote-classic">
+                <div class="media media-md flex-column flex-xs-row-reverse">
+                
+                  <div class="media-body">
+                    <div class="quote-title h5">Profit Sharing</div>
+                    <div class="quote-text">30% of all profit generated on goswapp platform will be distributed in ETH,BNB,GOFI among all GOFI holders according to their tier levels.<br><br>10% of total profit will be used to market buy GOFI tokens and will be burned forever.<br><br><br></div>
+                    
+                  </div>
+                </div>
+              </article>
+            </div> -->
+            <div class="col-md-6 col-xl-4">
+              <!-- Quote classic-->
+              <article class="quote quote-classic">
+                <div class="media media-md flex-column flex-xs-row-reverse">
+                  
+                  <div class="media-body">
+                    <div class="quote-title h5">GoPad</div>
+                    <div class="quote-text">Vote to choose which projects get launched.<br><br>Access to exclusive GoPad deals for GOFI token holders.<br><br>Invest with confidence with Go Assured<br><br><br><br></div>
+                    </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Quote classic-->
+              <article class="quote quote-classic">
+                <div class="media media-md flex-column flex-xs-row-reverse">
+              
+                  <div class="media-body">
+                    <div class="quote-title h5">GasBack</div>
+                    <div class="quote-text">GOFI holders will be able to claim a portion of their gas Expenditure.<br><br>The amount claimable will depend on the tier, total gas used by the user and total gas used by all other users in a certain time period<br><br>So early adopters will receive the max benefit.</div>
+                    </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Quote classic-->
+              <article class="quote quote-classic">
+                <div class="media media-md flex-column flex-xs-row-reverse">
+                  <div class="media-body">
+                    <div class="quote-title h5">Liquidity Mining</div>
+                    <div class="quote-text">30% of total supply is reserved for liquidity mining.<br><br>Users will be able to earn GOFI tokens by adding liquidity on pancakeswap on top of earning the trading fees<br><br><br><br><br></div>
+                   </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Quote classic-->
+              <article class="quote quote-classic">
+                <div class="media media-md flex-column flex-xs-row-reverse">
+                  <div class="media-body">
+                    <div class="quote-title h5">Premium Features</div>
+                    <div class="quote-text">GOFI holders will gain access to premium features and will be the first ones to get to try new features.<br><br><br><br><br><br><br><br></div>
+                   </div>
+                </div>
+              </article>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <!--Get in touch-->
+      <section class="section section-lg" id="pricing">
+        <div class="container">
+          <div class="d-md-flex align-items-md-center">
+            <h2>How it works</h2>
+            <p class="biggest mt-md-0 ml-md-4 border-md-left pl-md-3"></p>
+          </div>
+          <div class="offset-xl blurb-hovered">
+            <div class="row row-30 row-lg-0">
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-hovered-item">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-lg-column flex-xxl-row">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3 font-weight-medium">01</span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Connect Wallet</div>
+                              <div class="blurb-text">Connect any Web3 compatible wallet with goswapp.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-hovered-item">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-lg-column flex-xxl-row">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3 font-weight-medium">02</span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">No Registrations</div>
+                              <div class="blurb-text">Goswapp doesn't require you to do KYC or to create an account.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-hovered-item">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-lg-column flex-xxl-row">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3 font-weight-medium">03</span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Stay Lite</div>
+                              <div class="blurb-text">Taking only 11 mb of storage space, Goswapp is very light on your device.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-hovered-item">
+                        <!-- Blurb boxed-->
+                        <article class="blurb blurb-boxed">
+                          <div class="media media-sm flex-lg-column flex-xxl-row">
+                            <div class="media-left">
+                              <div class="blurb-embed"><span class="icon icon-round icon-md icon-primary icon-style-3 font-weight-medium">04</span></div>
+                            </div>
+                            <div class="media-body">
+                              <div class="blurb-title h5">Worldwide Reach</div>
+                              <div class="blurb-text">Stay connected to the world of defi with just an internet connection and goswapp application.</div>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+        
+      -->
+      <!-- <section class="section section-lg" id="pricing">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10">
+              <div class="group-20 d-sm-flex align-items-sm-end justify-content-sm-between text-center">
+                <h2>Pricing Plan</h2>
+      
+                <div>
+                        <div class="switch-text group-25 d-inline-flex align-items-center justify-content-center" id="multiswitch">
+                          <div><span class="switch-text-left biggest">Annual</span><span class="switch-text-right biggest ml-2 border-left pl-2">Monthly</span></div>
+                                <div class="switch-toggle-modern" data-multi-switch='{"targets":"#multiswitch, #pricing-group","state":true}'>
+                                  <div class="guide"></div>
+                                  <div class="slider">
+                                    <div class="slider-dot"></div>
+                                    <div class="slider-dot"></div>
+                                  </div>
+                                </div>
+                        </div>
+                </div>
+              </div>
+              <span class="switch-text-left biggest">For now, this app is absolutely free to use</span>
+              <div class="pricing-group offset-xs" id="pricing-group">
+             
+                <div class="owl-carousel owl-style-1 owl-item-end" data-owl="{&quot;loop&quot;:false,&quot;mouseDrag&quot;:false,&quot;dots&quot;:true,&quot;autoplay&quot;:false,&quot;responsive&quot;:{&quot;768&quot;:{&quot;items&quot;:2},&quot;992&quot;:{&quot;items&quot;:3},&quot;1600&quot;:{&quot;items&quot;:3,&quot;margin&quot;:100}}}">
+                        
+                        <article class="pricing pricing-primary block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Basic</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">$14</span><span class="pricing-year">$159</span></div>
+                              <div class="pricing-period">Per
+                                <div class="h5 font-weight-normal"><span class="pricing-month">Month</span><span class="pricing-year">Year</span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">32 GB Cloud Storage</li>
+                                <li class="list-item">eCommerce Integration</li>
+                                <li class="list-item disabled">Regular Updates</li>
+                                <li class="list-item disabled">24/7 Support</li>
+                                <li class="list-item disabled">Regular Updates</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                              <button class="btn btn-sm" data-modal-trigger='{"target":"#modal"}'>Select Plan</button>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <article class="pricing pricing-secondary block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <div class="pricing-badge">Popular</div>
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Standard</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">$30</span><span class="pricing-year">$350</span></div>
+                              <div class="pricing-period">Per
+                                <div class="h5 font-weight-normal"><span class="pricing-month">Month</span><span class="pricing-year">Year</span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">32 GB Cloud Storage</li>
+                                <li class="list-item">eCommerce Integration</li>
+                                <li class="list-item">Regular Updates</li>
+                                <li class="list-item">24/7 Support</li>
+                                <li class="list-item disabled">Regular Updates</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                              <button class="btn btn-sm" data-modal-trigger='{"target":"#modal"}'>Select Plan</button>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <article class="pricing pricing-success block block-sm block-center" data-animate='{"class":"fadeInUp"}'>
+                          <div class="pricing-body">
+                            <div class="pricing-title biggest">Premium</div>
+                            <div class="pricing-details">
+                              <div class="pricing-price h2"><span class="pricing-month">$50</span><span class="pricing-year">$550</span></div>
+                              <div class="pricing-period">Per
+                                <div class="h5 font-weight-normal"><span class="pricing-month">Month</span><span class="pricing-year">Year</span></div>
+                              </div>
+                            </div>
+                            <div class="pricing-divider">
+                              <hr class="divider">
+                            </div>
+                            <div class="pricing-list">
+                              <ul class="list list-marked-check d-inline-block text-left">
+                                <li class="list-item">32 GB Cloud Storage</li>
+                                <li class="list-item">eCommerce Integration</li>
+                                <li class="list-item">Regular Updates</li>
+                                <li class="list-item">24/7 Support</li>
+                                <li class="list-item">Regular Updates</li>
+                              </ul>
+                            </div>
+                            <div class="pricing-btn">
+                              <button class="btn btn-sm" data-modal-trigger='{"target":"#modal"}'>Select Plan</button>
+                            </div>
+                          </div>
+                        </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Get in touch-->
+      <section class="section section-lg" id="footer">
+        <div class="container">
+          <div class="row row-30 align-items-xl-center justify-content-xxl-between">
+            <div class="col-lg-6">
+              <h2>Get in Touch</h2>
+              <!-- <p class="bigger">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing.</p> -->
+              <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="components/rd-mailform/rd-mailform.php">
+                <div class="row row-30">
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="name" placeholder="Your name *" data-constraints="@Required">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <input class="form-control" type="email" name="email" placeholder="Your e-mail address *" data-constraints="@Email @Required">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="question" placeholder="Your question" rows="5" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="offset-sm group-40 d-flex flex-wrap flex-xs-nowrap align-items-center">
+                  <button class="btn" type="submit">Subscribe</button>
+                        <!-- Checkbox-->
+                        <!-- <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" id="check1">
+                          <label class="custom-control-label" for="check1"></label>
+                        </div> -->
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6 col-xxl-5">
+              <div class="box px-xl-3 px-xxl-4">
+                <div class="row row-30">
+                  <div >
+                    <h4>Get The App:</h4>
+                    <div class="group-30 offset-sm"><a class="btn pl-1" href=""><span class="btn-icon icon icon-round icon-sm icon-primary icon-style-3 mdi-apple"></span><span>Coming Soon</span></a><a class="btn pl-1" href="https://play.google.com/store/apps/details?id=app.com.limitorderapp"><span class="btn-icon icon icon-round icon-sm icon-primary icon-style-3 mdi-google-play"></span><span>Google Play  </span></a></div>
+                  </div>
+                  <!-- <div class="col-md-6 col-lg-12 col-xl-6">
+                    <h4></h4>
+                    <table class="table table-sm table-responsive-xl table-no-bordered bigger">
+                      <tbody>
+                         <tr>
+                          <td class="text-right text-600 pl-0 align-middle">Ph.</td>
+                          <td class="biggest"><a class="link-inherit" href="tel:#">1-800-901-234</a></td>
+                        </tr> 
+                         <tr>
+                          <td class="text-right text-600 pl-0">Mail.</td>
+                          <td><a class="link-inherit" href="mailto:#">info@demolink.org</a></td>
+                        </tr>
+                         <tr>
+                          <td class="text-right text-600 pl-0">Office.</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        </tr> 
+                      </tbody>
+                    </table>
+                  </div> -->
+                </div>
+                <hr class="divider">
+                <div class="group-20 d-flex flex-wrap align-items-center justify-content-between">
+                  <div>
+                          <!-- List social-->
+                          <ul class="list list-social">
+                            <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-telegram" href="https://t.me/GoSwapp"></a></li>
+                            <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-twitter" href="https://twitter.com/Go_Swapp"></a></li>
+                            <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1" href="https://discord.gg/mnVYv96VPb">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M22 24l-5.25-5l.63 2H4.5A2.5 2.5 0 0 1 2 18.5v-15A2.5 2.5 0 0 1 4.5 1h15A2.5 2.5 0 0 1 22 3.5V24M12 6.8c-2.68 0-4.56 1.15-4.56 1.15c1.03-.92 2.83-1.45 2.83-1.45l-.17-.17c-1.69.03-3.22 1.2-3.22 1.2c-1.72 3.59-1.61 6.69-1.61 6.69c1.4 1.81 3.48 1.68 3.48 1.68l.71-.9c-1.25-.27-2.04-1.38-2.04-1.38S9.3 14.9 12 14.9s4.58-1.28 4.58-1.28s-.79 1.11-2.04 1.38l.71.9s2.08.13 3.48-1.68c0 0 .11-3.1-1.61-6.69c0 0-1.53-1.17-3.22-1.2l-.17.17s1.8.53 2.83 1.45c0 0-1.88-1.15-4.56-1.15m-2.07 3.79c.65 0 1.18.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27m4.17 0c.65 0 1.17.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27z" fill="#a0a1ac"/></svg>
+                            </a></li>
+                            <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-medium" href="https://goswapp.medium.com/"></a></li>
+                          </ul>
+                  </div>
+                  <div>
+                          <!-- Copyright-->
+                          <p class="rights bigger"><span>&copy; 2021.&nbsp;</span><span>Goswapp</span><span>. All rights reserved</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-output snackbar snackbar-secondary" id="form-output-global"></div>
+      </section>
+      
+      
+      
+    </div>
+    <!-- Modal-->
+    <div class="modal fade" id="modal-login" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <h3>Get the app</h3>
+            <div class="group-30 offset-sm"><a class="btn pl-1" href="#"><span class="btn-icon icon icon-round icon-sm icon-primary icon-style-3 mdi-apple"></span><span>Coming Soon</span></a><a class="btn pl-1" href="https://play.google.com/store/apps/details?id=app.com.limitorderapp"><span class="btn-icon icon icon-round icon-sm icon-primary icon-style-3 mdi-google-play"></span><span>Google Play  </span></a></div>
+          </br>
+        </br>
+            <div>
+              <!-- List social-->
+              <ul class="list list-social">
+                <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-telegram" href="https://t.me/GoSwapp"></a></li>
+                <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-twitter" href="https://twitter.com/Go_Swapp"></a></li>
+                <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1" href="https://discord.gg/mnVYv96VPb">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M22 24l-5.25-5l.63 2H4.5A2.5 2.5 0 0 1 2 18.5v-15A2.5 2.5 0 0 1 4.5 1h15A2.5 2.5 0 0 1 22 3.5V24M12 6.8c-2.68 0-4.56 1.15-4.56 1.15c1.03-.92 2.83-1.45 2.83-1.45l-.17-.17c-1.69.03-3.22 1.2-3.22 1.2c-1.72 3.59-1.61 6.69-1.61 6.69c1.4 1.81 3.48 1.68 3.48 1.68l.71-.9c-1.25-.27-2.04-1.38-2.04-1.38S9.3 14.9 12 14.9s4.58-1.28 4.58-1.28s-.79 1.11-2.04 1.38l.71.9s2.08.13 3.48-1.68c0 0 .11-3.1-1.61-6.69c0 0-1.53-1.17-3.22-1.2l-.17.17s1.8.53 2.83 1.45c0 0-1.88-1.15-4.56-1.15m-2.07 3.79c.65 0 1.18.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27m4.17 0c.65 0 1.17.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27z" fill="#a0a1ac"/></svg>         
+                </a></li>
+                <li class="list-social-item"><a class="icon icon-circle icon-md icon-style-1 mdi-medium" href="https://goswapp.medium.com/"></a></li>
+              </ul>
+      </div>
+          </div>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+      </div>
+    </div>
+  </body>
+</html>
