@@ -898,13 +898,8 @@ components.rdNavbar = {
 							deviceLayout: 'rd-navbar-fixed',
 							focusOnHover: 'ontouchstart' in window,
 							stickUp: false
-						},
-						1200: {
-							layout: 'rd-navbar-fullwidth',
-							deviceLayout: 'rd-navbar-fullwidth',
-							stickUp: true,
-							stickUpOffset: '1px'
 						}
+						
 					},
 					callbacks: {
 						onStuck: function () {
