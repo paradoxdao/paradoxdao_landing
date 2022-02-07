@@ -1,3 +1,11 @@
 #pricing-group .owl-stage-outer .owl-stage {
 	justify-content: flex-start;
 }
+
+@media only screen and (max-width: 600px) {
+
+#back-image {
+	display: none!important;
+}
+
+}
