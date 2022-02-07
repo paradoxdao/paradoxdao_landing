@@ -703,10 +703,6 @@
 	flex-grow: 1;
 }
 
-.rd-navbar-fullwidth .navbar-switch {
-	display: none;
-}
-
 .rd-navbar-fullwidth .navbar-panel {
 	align-self: center;
 }
