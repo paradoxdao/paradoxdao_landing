@@ -1,5 +1,5 @@
 #pricing-group .owl-stage-outer .owl-stage {
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -17,4 +17,9 @@
 	text-align: center!important;
 }
 
+}
+
+
+#presale-right {
+	    margin-right: 0px!important;
 }
