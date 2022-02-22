@@ -2,24 +2,30 @@
 	justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-
-#back-image {
-	display: none!important;
-}
-
-}
-
-
-@media only screen and (max-width: 600px) {
-
-#container-roadmap {
-	text-align: center!important;
-}
-
-}
-
-
 #presale-right {
-	    margin-right: 0px!important;
+	margin-right: 0px!important;
+}
+
+@media screen and (max-width: 1200px) {
+	.rd-navbar-fixed .navbar-navigation-root-item.link-button {
+		margin-top: 0.5rem;
+		margin-left: 2rem;
+	}
+
+	.rd-navbar-fixed .navbar-navigation-root-item.link-button:last-child {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#back-image {
+		display: none !important;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	#container-roadmap {
+		text-align: center !important;
+	}
 }
